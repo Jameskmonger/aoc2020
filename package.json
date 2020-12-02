@@ -4,7 +4,7 @@
   "description": "Advent of Code 2020 solutions",
   "main": "index.js",
   "scripts": {
-    "solution": "ts-node"
+    "start": "ts-node ./%npm_config_day%/part%npm_config_part%.ts"
   },
   "repository": {
     "type": "git",
