@@ -14,7 +14,7 @@ const passwordIsValid = (line: PasswordDetails) => {
     const chars = line.pass.split("");
 
     const firstMatches = chars[line.min - 1] === line.char;
-    const secondMatches = chars[line.max - 1] === line.char; 
+    const secondMatches = chars[line.max - 1] === line.char;
 
     return (
         (firstMatches || secondMatches)

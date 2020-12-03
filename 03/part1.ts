@@ -13,7 +13,7 @@ const getMapTile = (location: Vector2D): GridEntity => {
     // past bottom of map
     if (location.y >= map.length) {
         return null;
-    }  
+    }
 
     const row = map[location.y];
 
