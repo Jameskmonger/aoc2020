@@ -19,3 +19,4 @@ export const maxLengthArray = <T>(limit: number) => {
 };
 
 export const sumArray = (arr: number[]) => arr.reduce((acc, cur) => acc + cur, 0);
+export const multiplyArray = (arr: number[]) => arr.reduce((acc, cur) => acc * cur, 1);

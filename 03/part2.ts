@@ -1,5 +1,5 @@
 import { addVectors, Vector2D } from "../_lib/vector";
-import { multiplyArray } from "../_lib/math";
+import { multiplyArray } from "../_lib/array";
 import { input } from "./input";
 
 enum GridEntity {
