@@ -17,3 +17,5 @@ export const maxLengthArray = <T>(limit: number) => {
         getValue
     };
 };
+
+export const sumArray = (arr: number[]) => arr.reduce((acc, cur) => acc + cur, 0);
